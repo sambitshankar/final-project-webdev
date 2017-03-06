@@ -15,7 +15,7 @@ body {
 }
 
 .mdl-layout {
-    background-color: #136F63;
+    background-color: #E2AA4F;
 }
 
 .site-header {
@@ -23,12 +23,16 @@ body {
   background-color: #545454;
 }
 
-
-
   .android-header .mdl-layout__drawer-button {
     background: transparent;
     color: #767777;
   }
+
+  .drawer-title {
+    height: 20px;
+    font-size: 27px;
+  }
+
 
   .android-header .mdl-navigation__link {
     color: #757575;
@@ -85,13 +89,9 @@ body {
   .android-drawer .mdl-layout-title {
     position: relative;
     background: #F0EFF4;
-    height: 160px;
+    height: 200px;
   }
 
-  .android-drawer .android-logo-image {
-      position: absolute;
-      bottom: 16px;
-    }
 
 .android-mobile-title {
     display: none;
@@ -122,26 +122,10 @@ body {
 }
 
 .quiz-title {
-    background-color: #136F63;
+    background-color: #E2AA4F;
     
 }
 
-.quiz-title-text {
-    font-size: 80px;
-    padding-top: 20px;
-    font-family: 'Abril Fatface', cursive;
-}
-
-.quiz-title-sub-text {
-    font-size: 22px;
-    padding-top: 30px;
-    line-height: 1.5;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 20px;
-    font-family: 'Indie Flower', cursive;
-
-}
 .mdl-cell {
   box-sizing: border-box;
   min-width: 70px;
@@ -175,15 +159,15 @@ body {
 
 
 .quiz-title-text {
-    font-size: 50px;
+    font-size: 80px;
     padding-top: 20px;
     font-family: 'Abril Fatface', cursive;
 }
 
 .quiz-title-sub-text {
-    font-size: 18px;
+    font-size: 25px;
     padding-top: 30px;
-    line-height: 1.5;
+    line-height: 1.25;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 20px;
@@ -263,6 +247,15 @@ body {
     .mdl-radio__label {
     font-size: 11px;
 }
+
+.radio-options label {
+    padding-bottom: 90px;
+}
+
+.mdl-card__title-text {
+    font-size: 16px;    
+}
+
 }
 
 
@@ -304,6 +297,23 @@ body {
     padding-top: 10px;
 }
 
+.quiz-title-text {
+    font-size: 60px;
+    padding-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.quiz-title-sub-text {
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 1.5;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+
+}
+
 
   .android-mobile-title {
     display: block;
@@ -324,6 +334,11 @@ body {
     padding-bottom: 60px;
 }
 
+.mdl-card__title-text {
+    font-size: 20px;    
+}
+
+
 }
 
 @media (max-width: 720px) {
@@ -336,6 +351,10 @@ body {
     padding-bottom: 70px;
 }
 
+.mdl-card__title-text {
+    font-size: 16px;    
+}
+
 }
 
 @media (max-width: 550px) {
@@ -346,6 +365,10 @@ body {
 
 .radio-options label {
     padding-bottom: 90px;
+}
+
+.mdl-card__title-text {
+    font-size: 15px;    
 }
 
 }
@@ -361,6 +384,10 @@ body {
 
     .radio-options label {
     padding-bottom: 70px;
+}
+
+.mdl-card__title-text {
+    font-size: 20px;    
 }
 
 }
