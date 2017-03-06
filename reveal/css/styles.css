@@ -144,6 +144,7 @@ body {
 }
 .mdl-cell {
   box-sizing: border-box;
+  min-width: 70px;
   padding-left: 8px;
   padding-top: 4px;
   color: white;
@@ -151,10 +152,11 @@ body {
 
 .demo-card-wide.mdl-card {
   width: 100%;
+  
 }
 .demo-card-wide > .mdl-card__title {
   color: #fff;
-  height: 215px;
+  height: 300px;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
@@ -162,17 +164,30 @@ body {
 
 .mdl-card__title-text {
     color: #F0EFF4;
-    padding-bottom: 30px;
     font-weight: lighter;
-    
+    font-size: 20px;    
 }
 
 .mdl-card__supporting-text {
     background-color: #313638;
     width: auto;
-    padding: auto;
+}
 
 
+.quiz-title-text {
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.quiz-title-sub-text {
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .question1 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
@@ -205,18 +220,49 @@ body {
     height: 400px;
 }
 
+.mdl-radio {
+    display: inline-block;
+    padding: auto;
+}
+
+
 .radio-options {
     padding:40px;
     font-weight: bold;
+   
+}
+
+.radio-options label {
+    display: inline-flex;
+    padding-bottom: 60px;
 }
 
 .mdl-radio__label {
     color: #757575;
+    font-size: 16px;
+    display: inline-block;
 }
 
 .mdl-mini-footer__left-section .mdl-logo{
     font-family: 'Griffy', cursive;
     font-size: 20px;
+}
+
+
+
+
+@media (max-width: 1180px) {
+
+    .mdl-radio__label {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 980px) {
+
+    .mdl-radio__label {
+    font-size: 11px;
+}
 }
 
 
@@ -253,21 +299,6 @@ body {
   background-size: cover;
 }
 
-.quiz-title-text {
-    font-size: 50px;
-    padding-top: 20px;
-    font-family: 'Abril Fatface', cursive;
-}
-
-.quiz-title-sub-text {
-    font-size: 18px;
-    padding-top: 30px;
-    line-height: 1.5;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    font-family: 'Indie Flower', cursive;
-}
 
 .logo-image {
     padding-top: 10px;
@@ -283,3 +314,53 @@ body {
   }
 }
   
+@media (max-width: 839px) {
+
+    .mdl-radio__label {
+    font-size: 15px;
+}
+
+.radio-options label {
+    padding-bottom: 60px;
+}
+
+}
+
+@media (max-width: 720px) {
+
+    .mdl-radio__label {
+    font-size: 11px;
+}
+
+.radio-options label {
+    padding-bottom: 70px;
+}
+
+}
+
+@media (max-width: 550px) {
+
+    .mdl-radio__label {
+    font-size: 10px;
+}
+
+.radio-options label {
+    padding-bottom: 90px;
+}
+
+}
+
+
+
+@media (max-width: 477px) {
+    
+    .mdl-radio__label {
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .radio-options label {
+    padding-bottom: 70px;
+}
+
+}
