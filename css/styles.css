@@ -3,13 +3,19 @@ font-family: 'Playfair Display', serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Nunito', sans-serif;
-font-family: 'Griffy', cursive */
+font-family: 'Griffy', cursive 
+font-family: 'Indie Flower', cursive;
+font-family: 'Abril Fatface', cursive;*/
 
 
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     margin: 0;
+}
+
+.mdl-layout {
+    background-color: #136F63;
 }
 
 .site-header {
@@ -59,7 +65,7 @@ body {
   }
 
   .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid #CC2936;
     }
 
 
@@ -116,19 +122,25 @@ body {
 }
 
 .quiz-title {
-    background-color: #3D2645;
+    background-color: #136F63;
     
 }
 
 .quiz-title-text {
     font-size: 80px;
     padding-top: 20px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .quiz-title-sub-text {
-    font-size: 25px;
-  padding-top: 30px;
+    font-size: 22px;
+    padding-top: 30px;
+    line-height: 1.5;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+
 }
 .mdl-cell {
   box-sizing: border-box;
@@ -149,22 +161,63 @@ body {
 }
 
 .mdl-card__title-text {
-    color: black;
+    color: #F0EFF4;
     padding-bottom: 30px;
+    font-weight: lighter;
+    
+}
+
+.mdl-card__supporting-text {
+    background-color: #313638;
+    width: auto;
+    padding: auto;
+
+
 }
 
 .question1 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
-    background: url('../img/myproj-1.jpg') center / cover;
+    background: url('../img/music.jpg') center / cover;
+    height: 400px;
 }
 
 .question2 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
-    background: url('../img/myproj-2.jpg') center / cover;
+    background: url('../img/homeless.jpg') center / cover;
+    height: 400px;
 }
 
 .question3 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
-    background: url('../img/myproj-3.jpg') center / cover;
+    background: url('../img/love.jpg') center / cover;
+    height: 400px;
 }
 
+.question4 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+    background: url('../img/escape.jpg') center / cover;
+    height: 400px;
+}
+
+.question5 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+    background: url('../img/island.jpg') center / cover;
+    height: 400px;
+}
+
+.question6 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+    background: url('../img/car.jpg') center / cover;
+    height: 400px;
+}
+
+.radio-options {
+    padding:40px;
+    font-weight: bold;
+}
+
+.mdl-radio__label {
+    color: #757575;
+}
+
+.mdl-mini-footer__left-section .mdl-logo{
+    font-family: 'Griffy', cursive;
+    font-size: 20px;
+}
 
 
 
@@ -179,14 +232,14 @@ body {
   }
 
   .hero-banner-slogan {
-  font-size: 30px;
-  padding-top: 100px;
+  font-size: 40px;
+  padding-top: 85px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .hero-banner-sub-slogan {
-  font-size: 15px;
+  font-size: 18px;
   padding-top: 70px;
   padding-left: 10px;
   padding-right: 10px;
@@ -200,9 +253,29 @@ body {
   background-size: cover;
 }
 
+.quiz-title-text {
+    font-size: 50px;
+    padding-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.quiz-title-sub-text {
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo-image {
+    padding-top: 10px;
+}
+
 
   .android-mobile-title {
-    display: block !important;
+    display: block;
     position: absolute;
     left: calc(50% - 70px);
     top: 12px;
