@@ -227,6 +227,41 @@ body {
     display: inline-block;
 }
 
+.submit-area {
+    background-color: #92BFB1;
+    position: center;
+}
+.name-entry {
+    text-align: center;
+}
+
+.name-entry h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mdl-textfield__label {
+    font-size: 18px;
+    text-align: center;
+    color: #918E8E;
+}
+
+.answer-submit {
+    object-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mdl-button--colored {
+
+    font-size: 25px;
+}
+
 .mdl-mini-footer__left-section .mdl-logo{
     font-family: 'Griffy', cursive;
     font-size: 20px;
