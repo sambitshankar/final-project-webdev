@@ -174,32 +174,32 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
-.question1 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-1 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/music.jpg') center / cover;
     height: 400px;
 }
 
-.question2 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-2 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/homeless.jpg') center / cover;
     height: 400px;
 }
 
-.question3 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-3 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/love.jpg') center / cover;
     height: 400px;
 }
 
-.question4 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-4 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/escape.jpg') center / cover;
     height: 400px;
 }
 
-.question5 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-5 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/island.jpg') center / cover;
     height: 400px;
 }
 
-.question6 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
+.quiz-card-6 .demo-card-wide.mdl-card.mdl-shadow--2dp .mdl-card__title {
     background: url('../img/car.jpg') center / cover;
     height: 400px;
 }
@@ -258,9 +258,44 @@ body {
 }
 
 .mdl-button--colored {
-
-    font-size: 25px;
+    font-weight: lighter;
+    font-size: 20px;
 }
+
+.results-card .demo-card-wide.mdl-card {
+  position: relative;
+  width: 100%;
+}
+
+.mdl-grid.center-items {
+  justify-content: center;
+}
+
+.result-image {
+  color: #fff;
+  height: 176px;
+  background: url('../img/hero.gif') center / cover;
+}
+.results-card .demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.results-card {
+  display: none;  
+}
+
+.result-details {
+    background-color: #fff;
+}
+
+.result-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: black;
+}
+
 
 .mdl-mini-footer__left-section .mdl-logo{
     font-family: 'Griffy', cursive;
