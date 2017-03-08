@@ -3,6 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <meta name="description" content="Welcome to self-discovery. We spend most of our lives immitating others. Those days are over. Take this personality quiz and embrace yourself, love yourself for who you are.">
+    <meta name="keywords" content="Personality, quiz, fun, cats, dogs">
+    <meta name="author" content="Sam Pattnaik">
     <title>Discover Yourself</title>
 
     <!--page icon (shown in browser tab)-->
@@ -27,98 +30,130 @@
 
 <body>
 
+<!--used the fixed header - waterfall layout-->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <div class="site-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-            <img class="logo-image" src="img/page-icon2.png">
+          <span class="site-title mdl-layout-title">
+            <img class="logo-image" src="img/page-icon2.png"> <!--holds the title logo image & Title-->
           Reveal Yourself</span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
+          
+          <div class="site-header-spacer mdl-layout-spacer"></div> <!-- Added spacer, to align navigation to the right in desktop -->
 
-      <div class="android-navigation-container">
-            <nav class="android-navigation mdl-navigation">
+          <!-- Header - Top level navigation -->
+          <div class="site-navigation-container">
+            <nav class="site-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://sambitpattnaik.com/"target="_blank">My Portfolio</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">About</a>
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Fun</a>
             </nav>
           </div>
         
-        <span class="android-mobile-title mdl-layout-title">
+          <span class="site-mobile-title mdl-layout-title"> <!-- Mobile Title for mobile site -->
             <img class="logo-image" src="img/page-icon2.png">
           </span>
-        </div>
-      </div>
+        </div> <!-- End of header row div -->
+      </div> <!-- End of site header div -->
 
-      <div class="android-drawer mdl-layout__drawer">
+      <!-- Code for the site left sliding drawer -->
+      <div class="site-drawer mdl-layout__drawer">
         <span class="mdl-layout-title">
           <a class="drawer-title"> Under the hat </a>
           <img class="logo-image" src="img/page-icon4.png">
         </span>
+        <!-- Drawer Navigation -->
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="https://sambitpattnaik.com/"target="_blank">My Portfolio</a>
-          <a class="mdl-navigation__link" href="">About</a>
-          <a class="mdl-navigation__link" href="">Fun</a>
+          <a class="mdl-navigation__link" href="#">About</a>
+          <a class="mdl-navigation__link" href="#">Fun</a>
         </nav>
-      </div>
+        <!-- Gives info on the drawer -->
+            <footer class="drawer-info mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <span>
+                      Site Created by Sam Pattnaik, MSIM 2nd Year. UX Designer
+                  <br>
+                  <br>
+                      Assets: GIFs from giphy.com and logos from freepik.com
+                  <br>
+                  <br>
+                      All images have been originally created by Sam Pattnaik
+                  <br>
+                  <br>
+                      Few questions adapted from Buzzfeed quiz.
+                  <br>
+                  <br>
+                      For questions and comments, email me at sambit@uw.edu or visit my Portfolio. 
+                  <br>
+                  <br>
+                      Thanks for visiting.
+                  <br>
+                  </span>
+                </div>
+              </footer>
 
-<div class="android-content mdl-layout__content">
-        <a name="top"></a>
-        <div class="hero-banner mdl-typography--text-center">
+      </div> <!-- End of side drawer div -->
+
+      <!-- MDL Content section starts here -->
+      <div class="site-content mdl-layout__content">
+          <a name="top"></a>
+          <div class="hero-banner mdl-typography--text-center"> <!-- I set the hero banner gif here and hero title and text belows-->
           <div class="logo-font hero-banner-slogan">Welcome to self-discovery</div>
           <div class="logo-font hero-banner-sub-slogan">"Stop acting like someone else, Be yourself, Embrace it"</div>
           <!-- Anchor to Jump to Quiz Section -->
-        <div class="scroll-anchor-button"> 
-            <a href="#quiz-section">
-              <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-                <i class="material-icons">keyboard_arrow_down</i>
-              </button> 
-            </a>
-        </div>
-      </div>       
+          <div class="scroll-anchor-button"> <!-- added an anchor FAB button to jump to the quiz section directly -->
+              <a href="#quiz-section">
+                  <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                  <i class="material-icons">keyboard_arrow_down</i>
+                  </button> 
+              </a>
+            </div>
+          </div>   <!-- End of the hero banner div-->    
         
-      <!-- Quiz Section -->
-    <a name="quiz-section"></a> 
-        <div class="quiz-title mdl-typography--text-center mdl-layout-title">
-         <img class="logo-image" src="img/page-icon.png">
-          <div class="logo-font quiz-title-text">Take the Quiz</div>
-          <div class="logo-font quiz-title-sub-text">Life is too short. We spend all our time living someone else's life. We try to act, walk
+      <!-- Quiz Section Anchor - has all the details displayed about the quiz-->
+      <a name="quiz-section"></a> 
+          <div class="quiz-title mdl-typography--text-center mdl-layout-title">
+            <img class="logo-image" src="img/page-icon.png">
+            <div class="logo-font quiz-title-text">Take the Quiz</div>
+            <div class="logo-font quiz-title-sub-text">Life is too short. We spend all our time living someone else's life. We try to act, walk
                 and talk like them. We try to put up fake smiles and we tend to overlook the beauty inside us. 
                 Remember, life is too short to worry about a failed test or an embarrasing fall before a few people the other night. What life 
                 is though, it is long enough to spread a smile across someone's face, it is long enough to make things right and its long enough to realize
                 your own worth and be happy. Having said that, take up the quiz and reveal who you truly are. Who knows, this will make you discover something about
                 yourself that you have never realized! Have fun and remember - always keep smiling!
-          </div>
-        </div>
+            </div>
+        </div> <!-- end of quiz title div -->
         
 
-        <div class="mdl-grid"> 
-        <div class="mdl-cell mdl-cell--4-col quiz-card-1">
-            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title">
-                    
-                </div>
-                <div class="mdl-card__supporting-text">
-                    <h2 class="mdl-card__title-text">What music type resonates with you the most?</h2>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                    <div class="question1 radio-options"> 
-                      <!-- Radio Button 1 -->
+        <!-- Quiz questions start from here -->
+        <div class="mdl-grid"> <!-- setup an MDL grid to hold the MDL Cards-->
+           
+                    <!-- QUESTION 1  -->
+           
+            <div class="mdl-cell mdl-cell--4-col quiz-card-1"> <!-- 3 cell grid -->
+              <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title"></div>
+                  <div class="mdl-card__supporting-text">
+                      <h2 class="mdl-card__title-text">What music type resonates with you the most?</h2>
+                  </div>
+                  <div class="mdl-card__actions mdl-card--border">
+                      <div class="question1 radio-options"> 
+                        <!-- Radio Button 1 -->
                         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="rock">
                           <input type="radio" id="rock" class="mdl-radio__button" name="options1" value="rock"/>
                           <span class="mdl-radio__label">Rock</span>
                         </label>
    
-                    <br>
-                    <br>
+                        <br>
+                        <br>
                          <!-- Radio Button 2 -->
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="classical">
                       <input type="radio" id="classical" class="mdl-radio__button" name="options1" value="classical"/>
                       <span class="mdl-radio__label">Classical</span>
                     </label>
 
-                    <br>
-                    <br>
+                        <br>
+                        <br>
    
                       <!-- Radio Button 3 -->
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="country">
@@ -126,20 +161,22 @@
                       <span class="mdl-radio__label">Country</span>
                     </label>
 
-                    <br>
-                    <br>
+                        <br>
+                        <br>
 
-                    <!-- Radio Button 4 -->
+                      <!-- Radio Button 4 -->
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pop">
                       <input type="radio" id="pop" class="mdl-radio__button" name="options1" value="pop"/>
                       <span class="mdl-radio__label">Pop</span>
                     </label>
 
-                </div>    <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
 
+
+                    <!-- QUESTION 2  -->
 
         <div class="mdl-cell mdl-cell--4-col quiz-card-2">
                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
@@ -192,11 +229,13 @@
                     </label>
                     
 
-                </div>    <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
 
+
+                <!-- QUESTION 3  -->
 
         <div class="mdl-cell mdl-cell--4-col quiz-card-3">
                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
@@ -239,10 +278,12 @@
                       <span class="mdl-radio__label">Respect their opinion but try your best to convince them</span>
                     </label>
 
-                </div>    <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
+
+                  <!-- QUESTION 4  -->
 
         <div class="mdl-cell mdl-cell--4-col quiz-card-4">
             <div class="demo-card-wide mdl-card mdl-shadow--2dp">
@@ -289,11 +330,13 @@
                       <span class="mdl-radio__label">Time equals money. There is no free time in life, I would rather work and earn</span>
                     </label>
 
-                </div>    <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
 
+
+                <!-- QUESTION 5  -->
 
         <div class="mdl-cell mdl-cell--4-col quiz-card-5">
                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
@@ -339,10 +382,13 @@
                       <span class="mdl-radio__label">I will check for lifeforms on the island, colonize it and raise my own army! I will be their king!</span>
                     </label>
 
-                </div>    <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
+
+
+                  <!-- QUESTION 6  -->
 
 
         <div class="mdl-cell mdl-cell--4-col quiz-card-6">
@@ -389,75 +435,77 @@
                       <span class="mdl-radio__label">I would own a luxury car! Why one, maybe a fleet of em', I ain't gonna carry all that money to my grave!</span>
                     </label>
 
-                </div>  <!-- End of Radio Options Div -->
-                </div>
-            </div>
-        </div>
-     </div> <!--mdl-grid div end -->
+                    </div>    <!-- End of Radio Options Div -->
+                  </div> <!-- end of MDL card actions div. -->
+              </div> <!-- End of the demo card div -->
+          </div> <!-- end of mdl cell -->
 
-  <section class="submit-area">
-  <div class="name-entry">
-        <h2 class="name-entry-title">And your name is ?</h2>
-        <form action="#">
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="username">
-        <label class="mdl-textfield__label" for="username">Name</label>
-    </div>
-  </form>
-    <div class="answer-submit">
-      <button class="submit-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-        Submit Quiz
-      </button>
-      <br>
-      <br>
-      <br>
-      <span class="scroll-down">Scroll down to see results!</span>
-    </div>
-    </div>
-  </section> 
+    </div> <!-- end of MDL Grid -->
 
-<!--This sections shows - Here are your results-->
-  <section class="see-results-title">
-    <span>Here are your quiz results!</span>
-  </section>
 
-<!--This is the part that shows the results after submission of the quiz answers-->
-<div class="mdl-grid center-items"> 
- <div class="mdl-cell results-card">
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title result-image">  
-  </div>
-    <div class="result-details mdl-card__supporting-text">
-       <h2 class="result-title mdl-card__title-text result-display">You are one LONELY WORKAHOLIC</h2>
-    <p class="result-details-desc">You don't really care about play or playing with others. You are way past the line that divides work and play. You are so far from the line, you can't even see the line, the line is a dot to you! Be careful though padawan, you won't always be young. Take your deserved time off and go make a sad friend smile. That's what this whole small life is all about. Not everything is about money.</p>
-  </div>
-  <div class="mdl-card__actions mdl-card--border">
-    <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="window.location.reload();">
-    Okay
-    </button>
-  </div>
-</div>
- </div>
-</div> <!--end of grid center-items--> 
+          <!-- SUBMIT-AREA STARTS HERE -->
+
+          <section class="submit-area">
+              <div class="name-entry">
+                <h2 class="name-entry-title">And your name is ?</h2>
+                <form action="#">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"> <!-- user name entry -->
+                    <input class="mdl-textfield__input" type="text" id="username">
+                    <label class="mdl-textfield__label" for="username">Name</label>
+                  </div>
+                </form>
+
+                <div class="answer-submit">
+                    <button class="submit-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                    Submit Quiz</button>
+                <br>
+                <br>
+                <br>
+                <span class="scroll-down">Scroll down to see results!</span>
+              </div> <!-- end of submit button div -->
+            </div> <!-- end of name-entry div -->
+        </section> <!-- End of submit area section -->
 
 
 
-<!--Footer--> 
+          <!--This sections shows - Here are your results-->
+              <section class="see-results-title">
+              <span>Here are your quiz results!</span>
+              </section>
+
+          <!--This is the part that shows the results after submission of the quiz answers-->
+            <div class="mdl-grid center-items"> 
+                <div class="mdl-cell results-card">
+                    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                      <div class="mdl-card__title result-image"></div>
+                      <div class="result-details mdl-card__supporting-text">
+                        <h2 class="result-title mdl-card__title-text result-display">You are one LONELY WORKAHOLIC</h2>
+                        <p class="result-details-desc">You don't really care about play or playing with others. You are way past the line that divides work and play. You are so far from the line, you can't even see the line, the line is a dot to you! Be careful though padawan, you won't always be young. Take your deserved time off and go make a sad friend smile. That's what this whole small life is all about. Not everything is about money.</p>
+                      </div>
+  
+                      <div class="mdl-card__actions mdl-card--border">
+                          <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="window.location.reload();">Okay</button>
+                     </div>
+                    </div> <!-- end of demo card div -->
+                </div> <!-- end of MDL cell div -->
+            </div> <!--end of MDL grid center-items--> 
 
 
-<footer class="mdl-mini-footer">
-  <div class="mdl-mini-footer__left-section">
-    <div class="mdl-logo">Reveal Yourself</div>
-    <ul class="mdl-mini-footer__link-list">
-      <li><a href="#">Designed by Sam and powered by shots of Pumpkin Macchiato and cute cats and dogs</a></li>
-    </ul>
-  </div>
-</footer>
+
+            <!--FOOTER--> 
 
 
- 
+          <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+              <div class="mdl-logo">Reveal Yourself</div>
+              <ul class="mdl-mini-footer__link-list">
+                <li><a href="#">Designed by Sam and powered by shots of Pumpkin Macchiato and cute cats and dogs</a></li>
+              </ul>
+          </div>
+        </footer> <!-- end of footer -->
 
-    <!--results data-->
+
+    <!--results data script-->
     <script src="js/results.js"></script>
 
     <!-- application script-->
@@ -466,5 +514,5 @@
     <!--MDL JavaScript file-->
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
-</div> <!--end of layout-->
+  </div> <!--end of MDL layout-->
 </html>

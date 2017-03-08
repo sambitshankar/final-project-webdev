@@ -1,4 +1,6 @@
-/* Include these font families
+/* 
+Author: Sam Pattnaik
+Include these font families - from Google
 font-family: 'Playfair Display', serif;
 font-family: 'Noto Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -23,78 +25,72 @@ body {
   background-color: #545454;
 }
 
-  .android-header .mdl-layout__drawer-button {
-    background: transparent;
-    color: #767777;
-  }
-
-  .drawer-title {
+.drawer-title {
     height: 20px;
     font-size: 27px;
-  }
-
-
-  .android-header .mdl-navigation__link {
-    color: #757575;
-    font-weight: 700;
-    font-size: 14px;
   }
 
 .mdl-layout-title {
     color: #F0EFF4;
     font-family: 'Griffy', cursive;
-    font-size: 2.5em;
-    
+    font-size: 2.5em;   
 }
 
 .logo-image {
     padding-top: 15px;
 }
 
-.android-navigation-container {
-    /* Simple hack to make the overflow happen to the left instead... */
+.site-navigation-container {
+    /* Hack to make the overflow happen to the left instead of right..., hack from mdl forum */
+
     direction: rtl;
     order: 1;
     width: 500px;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .android-navigation .mdl-navigation__link {
+.site-navigation .mdl-navigation__link {
     display: inline-block;
     height: 60px;
     line-height: 68px;
-    background-color: transparent !important;
+    background-color: transparent;
     border-bottom: 4px solid transparent;
-  }
+}
 
-  .android-navigation .mdl-navigation__link:hover {
+.site-navigation .mdl-navigation__link:hover {
       border-bottom: 4px solid #E2AA4F;
-    }
+}
 
 
-.android-drawer {
+.site-drawer {
   border-right: none;
 }
 
-.android-drawer .mdl-navigation__link.mdl-navigation__link {
+.site-drawer .mdl-navigation__link.mdl-navigation__link {
     font-size: 14px;
     color: #757575;
-  }
+}
 
-  .android-drawer span.mdl-navigation__link.mdl-navigation__link {
+  .site-drawer span.mdl-navigation__link.mdl-navigation__link {
     color: #8bc34a;
   }
 
-  .android-drawer .mdl-layout-title {
+  .site-drawer .mdl-layout-title {
     position: relative;
     background: #F0EFF4;
     height: 200px;
   }
 
 
-.android-mobile-title {
+.site-mobile-title {
     display: none;
+}
+
+.drawer-info {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    padding-top: 100%;   
 }
 
 .hero-banner {
@@ -339,8 +335,8 @@ body {
 }
 
 
-
-
+/* RESPONSIVE CODE */
+ 
 @media (max-width: 1180px) {
 
     .mdl-radio__label {
@@ -352,15 +348,15 @@ body {
 
     .mdl-radio__label {
     font-size: 11px;
-}
+    }
 
-.radio-options label {
+    .radio-options label {
     padding-bottom: 90px;
-}
+    }
 
-.mdl-card__title-text {
+    .mdl-card__title-text {
     font-size: 16px;    
-}
+    }
 
 }
 
@@ -368,72 +364,72 @@ body {
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
-  .android-navigation-container {
+  .site-navigation-container {
     display: none;
   }
 
-  .android-title {
-    display: none !important;
+  .site-title {
+        display: none !important;
   }
 
   .hero-banner-slogan {
-  font-size: 40px;
-  padding-top: 85px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+        font-size: 40px;
+        padding-top: 85px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.hero-banner-sub-slogan {
-  font-size: 18px;
-  padding-top: 70px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+    .hero-banner-sub-slogan {
+        font-size: 18px;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.hero-banner {
-  position: relative;
-  height: 300px;
-  width: auto;
-  background: url('../img/hero.gif') center 30%; 
-  background-size: cover;
-}
+    .hero-banner {
+        position: relative;
+        height: 300px;
+        width: auto;
+        background: url('../img/hero.gif') center 30%; 
+        background-size: cover;
+    }
 
 
-.logo-image {
-    padding-top: 10px;
-}
+    .logo-image {
+        padding-top: 10px;
+    }
 
-.quiz-title-text {
-    font-size: 60px;
-    padding-top: 20px;
-    font-family: 'Abril Fatface', cursive;
-}
+    .quiz-title-text {
+        font-size: 60px;
+        padding-top: 20px;
+        font-family: 'Abril Fatface', cursive;
+    }
 
-.quiz-title-sub-text {
-    font-size: 18px;
-    padding-top: 30px;
-    line-height: 1.5;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 20px;
-    font-family: 'Indie Flower', cursive;
+    .quiz-title-sub-text {
+        font-size: 18px;
+        padding-top: 30px;
+        line-height: 1.5;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-bottom: 20px;
+        font-family: 'Indie Flower', cursive;
 
-}
+    }
 
-.see-results-title {
-    padding-top: 30px;
-}
+    .see-results-title {
+        padding-top: 30px;
+    }
 
-.see-results-title span {
-    font-size: 30px;
-}
+    .see-results-title span {
+        font-size: 30px;
+    }
 
-  .android-mobile-title {
-    display: block;
-    position: absolute;
-    left: calc(50% - 70px);
-    top: 12px;
-    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    .site-mobile-title {
+        display: block;
+        position: absolute;
+        left: calc(50% - 70px);
+        top: 12px;
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
   
