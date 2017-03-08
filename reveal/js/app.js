@@ -28,16 +28,121 @@ console.log("button clicked"); /* line for debugging purposes */
     else {
         document.querySelector(".results-card").style.display = "block";
         document.querySelector(".see-results-title ").style.display = "block";
-        if(answer1.value == "country" && answer2.value == "give" && answer4.value == "kind"){
+        if(answer1.value == answer2.value == "give" && answer4.value == "kind"){
                 if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[0].title;
                     resultOutputdesc.textContent = RESULTS[0].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/saviour.gif')";
+
                 }
                 else {
                     resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[0].title;
                     resultOutputdesc.textContent = RESULTS[0].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/saviour.gif')";
+
                 }
-        } 
+        } else if(answer3.value == "convince"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[5].title;
+                    resultOutputdesc.textContent = RESULTS[5].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/lover.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[5].title;
+                    resultOutputdesc.textContent = RESULTS[5].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/lover.gif')";
+                }
+        } else if(answer5.value == "believe"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[9].title;
+                    resultOutputdesc.textContent = RESULTS[9].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/hope.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[9].title;
+                    resultOutputdesc.textContent = RESULTS[9].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/hope.gif')";
+                }
+        }  else if(answer2.value == "spit" || answer3.value == "against" || answer5.value == "happy"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[3].title;
+                    resultOutputdesc.textContent = RESULTS[9].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/hater.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[3].title;
+                    resultOutputdesc.textContent = RESULTS[9].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/hater.gif')";
+                }
+        }   else if(answer6.value == "electric" && answer4.value == "alone"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[4].title;
+                    resultOutputdesc.textContent = RESULTS[4].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/nature-lover.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[4].title;
+                    resultOutputdesc.textContent = RESULTS[4].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/nature-lover.gif')";
+                }
+        }   else if(answer4.value == "party" && answer6.value == "royal"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[7].title;
+                    resultOutputdesc.textContent = RESULTS[7].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/drunk.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[7].title;
+                    resultOutputdesc.textContent = RESULTS[7].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/drunk.gif')";
+                }
+        
+        }   else if(answer2.value == "envy" && answer5.value == "die"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[8].title;
+                    resultOutputdesc.textContent = RESULTS[8].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/dreamer.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[8].title;
+                    resultOutputdesc.textContent = RESULTS[8].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/dreamer.gif')";
+                }
+        }   else if(answer4.value == "work" && answer6.value == "economic"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[2].title;
+                    resultOutputdesc.textContent = RESULTS[2].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/workaholic.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[2].title;
+                    resultOutputdesc.textContent = RESULTS[2].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/workaholic.gif')";
+                }
+        }   else if(answer2.value == "get-a-job" && answer3.value == "dont-care"){
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[1].title;
+                    resultOutputdesc.textContent = RESULTS[1].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/troublemaker.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[1].title;
+                    resultOutputdesc.textContent = RESULTS[1].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/troublemaker.gif')";
+                }
+        }   else {
+              if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[10].title;
+                    resultOutputdesc.textContent = RESULTS[10].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[10].title;
+                    resultOutputdesc.textContent = RESULTS[10].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
+                }
+        }
+    
     }
      
 });  

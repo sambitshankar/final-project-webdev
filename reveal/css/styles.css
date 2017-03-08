@@ -297,8 +297,11 @@ body {
 
 .result-image {
   color: #fff;
-  height: 176px;
-  background: url('../img/hero.gif') center / cover;
+  height: 150px;
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-size: cover;
+  background: url('../img/hero.gif');  
 }
 .results-card .demo-card-wide > .mdl-card__menu {
   color: #fff;
@@ -314,6 +317,7 @@ body {
 
 .result-title {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 10px; 
