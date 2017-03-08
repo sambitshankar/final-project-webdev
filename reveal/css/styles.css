@@ -69,7 +69,7 @@ body {
   }
 
   .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #CC2936;
+      border-bottom: 4px solid #E2AA4F;
     }
 
 
@@ -157,6 +157,13 @@ body {
     width: auto;
 }
 
+.scroll-anchor-button {
+    padding-top: 300px;
+}
+
+.quiz-title {
+    padding-top: 40px;
+}
 
 .quiz-title-text {
     font-size: 80px;
@@ -269,6 +276,24 @@ body {
 
 .mdl-grid.center-items {
   justify-content: center;
+}
+
+.see-results-title {
+    display: none;
+    width: 100%;
+    background-color: #E2AA4F;  
+    text-align: center;
+    line-height: 1; 
+    padding-top: 60px;
+}
+
+.see-results-title span {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #313638;
 }
 
 .result-image {
@@ -384,6 +409,13 @@ body {
 
 }
 
+.see-results-title {
+    padding-top: 30px;
+}
+
+.see-results-title span {
+    font-size: 30px;
+}
 
   .android-mobile-title {
     display: block;

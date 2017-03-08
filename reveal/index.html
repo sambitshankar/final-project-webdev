@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     
     <!-- normalize.css -->
@@ -66,10 +67,18 @@
         <div class="hero-banner mdl-typography--text-center">
           <div class="logo-font hero-banner-slogan">Welcome to self-discovery</div>
           <div class="logo-font hero-banner-sub-slogan">"Stop acting like someone else, Be yourself, Embrace it"</div>
+          <!-- Anchor to Jump to Quiz Section -->
+        <div class="scroll-anchor-button"> 
+            <a href="#quiz-section">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+                <i class="material-icons">keyboard_arrow_down</i>
+              </button> 
+            </a>
         </div>
+      </div>
         
         
-        
+    <a name="quiz-section"></a> 
         <div class="quiz-title mdl-typography--text-center mdl-layout-title">
          <img class="logo-image" src="img/page-icon.png">
           <div class="logo-font quiz-title-text">Take the Quiz</div>
@@ -402,6 +411,11 @@
     </div>
     </div>
   </section> 
+
+<!--This sections shows - Here are your results-->
+  <section class="see-results-title">
+    <span>Here are your quiz results!</span>
+  </section>
 
 <!--This is the part that shows the results after submission of the quiz answers-->
 <div class="mdl-grid center-items"> 
