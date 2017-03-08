@@ -295,12 +295,13 @@ body {
     color: #313638;
 }
 
+
 .result-image {
-  color: #fff;
   height: 150px;
-  background-repeat: no-repeat ;
-  background-position: center;
-  background-size: cover;
+  color: #fff;
+  background-repeat: repeat;
+  background-position: left;
+  background-size: contain;
   background: url('../img/hero.gif');  
 }
 .results-card .demo-card-wide > .mdl-card__menu {
