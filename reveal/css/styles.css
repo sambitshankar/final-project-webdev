@@ -90,7 +90,8 @@ body {
 .drawer-info {
     font-family: 'Noto Sans', sans-serif;
     font-size: 12px;
-    padding-top: 100%;   
+    padding-top: 10%;
+    padding-bottom: 90%;   
 }
 
 .hero-banner {

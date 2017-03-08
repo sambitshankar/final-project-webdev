@@ -135,7 +135,7 @@ submitButton.addEventListener("click", function(){
                     document.querySelector(".result-image").style.backgroundSize = "cover";
                     document.querySelector(".result-image").style.backgroundPosition = "center";
                 }
-        }   else if(answer4.value == "party" && answer6.value == "royal"){
+        }   else if(answer4.value == "party" || answer6.value == "royal"){
               if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[7].title;
                     resultOutputdesc.textContent = RESULTS[7].description;
@@ -187,7 +187,7 @@ submitButton.addEventListener("click", function(){
                     document.querySelector(".result-image").style.backgroundSize = "cover";
                     document.querySelector(".result-image").style.backgroundPosition = "center";
                 }
-        }   else if(answer2.value == "get-a-job" && answer3.value == "dont-care"){
+        }   else if(answer2.value == "get-a-job" || answer3.value == "dont-care" || answer5.value == "kill"){
               if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[1].title;
                     resultOutputdesc.textContent = RESULTS[1].description;
