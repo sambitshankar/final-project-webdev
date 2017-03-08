@@ -28,6 +28,16 @@ console.log("button clicked"); /* line for debugging purposes */
     else {
         document.querySelector(".results-card").style.display = "block";
         document.querySelector(".see-results-title ").style.display = "block";
+        if(nameInput.value==""){
+                    resultOutput.textContent = "Hello padawan, " + RESULTS[10].title;
+                    resultOutputdesc.textContent = RESULTS[10].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
+                }
+                else {
+                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[10].title;
+                    resultOutputdesc.textContent = RESULTS[10].description;
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
+                }
         if(answer1.value == answer2.value == "give" && answer4.value == "kind"){
                 if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[0].title;
@@ -130,20 +140,8 @@ console.log("button clicked"); /* line for debugging purposes */
                     resultOutputdesc.textContent = RESULTS[1].description;
                     document.querySelector(".result-image").style.background = "url('../reveal/img/troublemaker.gif')";
                 }
-        }   else {
-              if(nameInput.value==""){
-                    resultOutput.textContent = "Hello padawan, " + RESULTS[10].title;
-                    resultOutputdesc.textContent = RESULTS[10].description;
-                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
-                }
-                else {
-                    resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[10].title;
-                    resultOutputdesc.textContent = RESULTS[10].description;
-                    document.querySelector(".result-image").style.background = "url('../reveal/img/smart.gif')";
-                }
-        }
+        }   
     
-    }
      
 });  
      
