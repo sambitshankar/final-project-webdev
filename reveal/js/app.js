@@ -67,7 +67,7 @@ submitButton.addEventListener("click", function(){
                     document.querySelector(".result-image").style.backgroundPosition = "center";
 
                 }
-        } else if(answer3.value == "convince"){
+        } else if(answer3.value == "convince" && answer5.value == "believe"){
               if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[5].title;
                     resultOutputdesc.textContent = RESULTS[5].description;
