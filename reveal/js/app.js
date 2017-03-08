@@ -37,7 +37,7 @@ console.log("button clicked"); /* line for debugging purposes */
                     resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[0].title;
                     resultOutputdesc.textContent = RESULTS[0].description;
                 }
-    } 
+        } 
     }
      
 });  
