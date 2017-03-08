@@ -27,7 +27,8 @@ console.log("button clicked"); /* line for debugging purposes */
     }
     else {
         document.querySelector(".results-card").style.display = "block";
-        document.querySelector(".see-results-title ").style.display = "block";
+        document.querySelector(".see-results-title").style.display = "block";
+        document.querySelector(".scroll-down").style.display = "block";
         if(nameInput.value==""){
                     resultOutput.textContent = "Hello padawan, " + RESULTS[10].title;
                     resultOutputdesc.textContent = RESULTS[10].description;
