@@ -143,7 +143,7 @@ console.log("button clicked"); /* line for debugging purposes */
                 else {
                     resultOutput.textContent = "Hello, " + nameInput.value + " " + RESULTS[7].title;
                     resultOutputdesc.textContent = RESULTS[7].description;
-                    document.querySelector(".result-image").style.background = "url('../reveal/img/drunk.gif')";
+                    document.querySelector(".result-image").style.background = "url('../reveal/img/drunk.gif')"; 
                     document.querySelector(".result-image").style.backgroundRepeat = "no-repeat";
                     document.querySelector(".result-image").style.backgroundSize = "cover";
                     document.querySelector(".result-image").style.backgroundPosition = "center";

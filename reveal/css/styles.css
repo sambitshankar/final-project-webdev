@@ -304,6 +304,7 @@ body {
   background-size: contain;
   background: url('../img/hero.gif');  
 }
+
 .results-card .demo-card-wide > .mdl-card__menu {
   color: #fff;
 }
